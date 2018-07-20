@@ -1,0 +1,271 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+/* ===
+    Header (logo, nav)
+=== */
+header {
+  background: #000;
+  border-radius: 0 0 20px 20px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header img {
+  width: 2.5%;
+  margin: 0;
+  padding: 0;
+}
+header nav {
+  padding: 0;
+  margin: 0;
+}
+nav ul {
+  display: flex;
+}
+header nav ul li {
+  margin: 0 20px;
+  padding: 0;
+  color: #fff;
+  font-size: 17px;
+}
+/* ===
+    End Header (logo, nav)
+=== */
+
+
+/* ===
+    Section1 (h1, input, button)
+=== */
+div.section1 {
+  margin: 0 auto;
+  width: 25%;
+  text-align: center;
+  @media (max-width: 600px;) {
+    width: 100%;
+  }
+}
+div.section1 h1 {
+  font-size: 50px;
+  margin-bottom: 5%;
+  padding: 0;
+  margin-top: 70px;
+}
+div.section1 h2 {
+  padding: 0;
+  margin: 0;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+}
+div.signin {
+  margin-top: 3%;
+}
+div.signin form input {
+  padding: 5px;
+  width: 80%;
+  border: 1px solid grey;
+  border-radius: 2px;
+  margin-bottom: 12px;
+}
+div.signin form #submit {
+  background-color: #ffffff;
+  font-weight: bold;
+  font-size: 17px;
+  margin: 0;
+  padding: 2px;
+  width: 55%;
+  height: 15%;
+  border: 2px solid grey;
+  border-radius: 5px;
+}
+div.signin form #submit:hover {
+  background-color: #E80264;
+  border: 2px solid #FF2403;
+  color: #ffffff;
+  cursor: pointer;
+}
+/* ===
+    End Section1 (h1, input, button)
+=== */
+
+
+/* ===
+    Product (img, features, a)
+=== */
+.product {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+  /* === img === */
+  .product img{
+    margin: 0 auto;
+    width: 80%;
+    display: block;
+    margin-top: 0;
+    padding: 0;
+  }
+  /* === features === */
+  #features {
+    text-align: left;
+    margin: 0 auto;
+    width: 55%;
+  }
+  #features h2 {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 2px;
+    font-family: cursive;
+  }
+  #features p {
+    margin: 10px 0 10px;
+    line-height: 1.4;
+  }
+  .purchase button {
+    background-color: #ffffff;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 0;
+    margin-bottom: 25px;
+    padding: 2px;
+    width: 20%;
+    height: 15%;
+    border: 2px solid grey;
+    border-radius: 5px;
+  }
+  .purchase button:hover {
+    background-color: #E80264;
+    border: 2px solid #FF2403;
+    color: #ffffff;
+    cursor: pointer;
+  }
+/* ===
+    Video
+=== */
+.videox {
+  margin: 0 auto;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+  /* === img === */
+  .videox #video{
+    margin: 0 auto;
+    width: 50%;
+    display: block;
+    margin-top: 0;
+    padding: 0;
+  }
+/* ===
+    Pricing
+=== */
+#pricing {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+#pricing .left, .center, .right {
+  border: 1px solid gray;
+  border-radius: 2px;
+  width: 30%;
+  padding: 0;
+  margin-left: 25px;
+}
+#pricing .left {
+  margin-left: 0;
+}
+#pricing ul {
+  list-style-type: none;
+  align-items: center;
+  padding: 0;
+  margin-top: 0;
+}
+#pricing ul h2 {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 22.5px;
+  background-color: #C4C4C4;
+  margin-top: 0;
+}
+#pricing:hover  h2 {
+  background-color: #E80264;
+  color: #ffffff;
+}
+#pricing ul li {
+  padding: 0;
+  margin-bottom: 10px;
+}
+#pricing ul li.first {
+  font-size: 20px;
+  font-weight: bold;
+}
+#pricing button {
+  font-size: 20px;
+  padding: 5px 15px;
+  margin-bottom: 10px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  align-items: center;
+}
+#pricing button:hover {
+  background-color: #E80264;
+  border: 2px solid #FF2403;
+  color: #ffffff;
+  cursor: pointer;
+}
+/* ===
+    End pricing
+=== */
+
+/* ===
+    Footer
+=== */
+footer {
+  background-color: #C4C4C4;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding: 15px;
+  width: 100%;
+  text-align: center;
+}
+footer ul {
+  list-style: none;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  padding: 0;
+  text-align: center;
+}
+footer ul li {
+  display: inline-block;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+  padding: 0 15px;
+}
+footer ul a {
+  color: #000000;
+}
+footer h3 {
+  font-size: 15px;
+  font-weight: lighter;
+  margin: 0 auto;
+  width: 100%;
+}
