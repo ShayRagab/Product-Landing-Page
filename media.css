@@ -1,23 +1,49 @@
-@media  screen and (max-width: 600px) {
+@media  screen and (max-width: 570px) {
   header {
-    flex-direction: column;
+    /*flex-direction: column;*/
     border-radius: 0;
   }
   header img {
-    width: 30px;
+    width: 25px;
     margin: 0 auto;
+    margin-right: 0;
   }
   header nav{
-  width: 100%;
+  width: 50%;
   margin: 0 auto;
+  margin-left: 0;
   }
-  nav ul {
-    /*margin: 0 auto;*/
+  header nav ul li {
+    font-size: 10px;
+    margin: 0 10px;
   }
-  nav li {
-    font-size: 50px;
+  div.section1 {
+    width: 50%;
   }
-  .section1 h1 {
+  div.section1 h1 {
+    font-size: 25px;
+  }
+  div.section1 h2 {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    word-spacing: -1px;
+  }
+  div.product div#features div.feature i {
+
+  }
+  div.product div#features div.feature h2{
     font-size: 20px;
+  }
+  div.product div#features div.feature p{
+    font-size: 14px;
+  }
+  div.videox iframe {
+    width: 100%;
+  }
+  div#pricing {
+    flex-direction: column;
+  }
+  div#pricing div.list {
+    width: 100%;
   }
 }
