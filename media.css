@@ -1,4 +1,8 @@
-@media  screen and (max-width: 570px) {
+@media  screen and (max-width: 700px) {
+
+  /* ===
+      Header
+  ==*/
   header {
     /*flex-direction: column;*/
     border-radius: 0;
@@ -17,8 +21,12 @@
     font-size: 10px;
     margin: 0 10px;
   }
+
+  /* ===
+      Section1
+  ===*/
   div.section1 {
-    width: 50%;
+    width: 70%;
   }
   div.section1 h1 {
     font-size: 25px;
@@ -28,22 +36,55 @@
     letter-spacing: 0.5px;
     word-spacing: -1px;
   }
-  div.product div#features div.feature i {
 
+  /* ===
+      Features
+  === */
+  div#features div.feature {
+    width: 100%;
+  }
+  div.product div#features div.icon {
+    display: none;
+  }
+  div#features div.feature div.featuretext {
+    width: 100%;
   }
   div.product div#features div.feature h2{
     font-size: 20px;
+    letter-spacing: 1.5px;
   }
   div.product div#features div.feature p{
     font-size: 14px;
   }
+  div.product div.purchase button {
+    width: 30%;
+    font-size: 15px;
+  }
+
+  /* ===
+      Video
+  ===*/
+  div#how {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
   div.videox iframe {
     width: 100%;
+    margin: 0;
+    padding: 0;
   }
+
+  /* ===
+      Pricing
+  ===*/
   div#pricing {
     flex-direction: column;
   }
   div#pricing div.list {
     width: 100%;
+    margin: 0;
+    margin-top: 10px;
   }
+
 }
