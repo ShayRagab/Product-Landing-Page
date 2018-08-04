@@ -1,1 +1,1 @@
-# Product-Landing-Page
+My version of the "Product Landing Page" project from FreeCodeCamp
